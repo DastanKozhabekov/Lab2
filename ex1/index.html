@@ -1,169 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<title>Layout</title>
-	</head>
-	<body>
-		<header>
-			<div class="logo">
-				<img src="images/logo.png" alt="logo">
-			</div>
-			<div class="nav">
-				<a href="#" id="black">Home</a>	
-			</div>
-			<div class="nav">
-				<a href="#">About us</a>
-			</div>
-			<div class="nav">
-				<a href="../ex1/main.html">Portfolio</a>
-			</div>
-			<div class="nav">
-				<a href="#">Services</a>
-			</div>
-			<div class="nav">
-				<a href="#">Blog</a>
-			</div>
-			<div class="nav">
-				<a href="contact.html">Contact us</a>
+<head>
+	<meta charset="UTF-8">
+	<title>Lesson5</title>
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="body">
+	<div class="wrapper">
+		<header class="header">
+			<img src="public/logo.png" class="logo" alt="no image :("/>
+			<div class="header_navbar">
+				<a class="active header_link" href="">HOME</a>
+				<a class="header_link" href="">ABOUT US</a>
+				<a class="header_link" href="">PORTFOLIO</a>
+				<a class="header_link" href="">SERVICES</a>
+				<a class="header_link" href="">BLOG</a>
+				<a class="header_link" href="">CONTACT US</a>
 			</div>
 		</header>
-		<hr>
-		<div class="main_img">
-			<img src="images/header-image.jpg" alt="header-image">
-		</div>
-		<hr>
-		<div class="blocks">
-			<div class="block">
-				<h3>
-					<img src="images/arrow.png" alt="arrow">
-					&nbsp; About us
-				</h3>
-				<div class="line"></div>
-				<p>Lorem ipsum dolor sit amet 
-					consectetur adipisicing elit.
-					Ducimus quisquam veritatis 
-					voluptas quo in dicta atque 
-					animi accusantium dolore 
-					quae! Maiores deleniti, 
-					porro sit labore 
-					necessitatibus ullam vero 
-					molestiae velit. Nam efficitur 
-					quam risus, ullamcorper cursus 
-					nibh viverra eget.</p>
-					<div class="link">
-						<a href="#">read more</a>
+		<main class="main">
+			<img class="header_image" src="public/header-image.jpg" alt="no image :(">
+			<div class="other">
+				<div class="other_about_us">
+					<div class="title">
+						<div class="title_icon">&rarr;</div>
+						<div class="title_name">ABOUT US</div>
 					</div>
-			</div>
-			<div class="block">
-				<h3>
-					<img src="images/arrow.png" alt="arrow">
-					&nbsp; our benefits
-				</h3>
-				<div class="line"></div>
-				<div class="check_box">
-					<img src="images/check.png" alt="check">
-					<p>Lorem, ipsum dolor sit amet consectetur
-						adipisicing elit. Deserunt, esse? 
-						Aperiam, molestiae sint illo fuga 
-						veritatis.
+					<p class="text">
+						Lorem Ipsum is simply dummy text of the
+						printing and typesetting industry.
+						Lorem Ipsum has been the industry's standard
+						dummy text ever since the 1500s,
+						when an unknown printer took
+						a galley of type and scrambled it
+						to make a type specimen book.
 					</p>
-					<img src="images/check.png" alt="check">
-					<p>Lorem, ipsum dolor sit amet consectetur
-						adipisicing elit. Deserunt, esse? 
-						Aperiam, molestiae sint illo fuga 
-						veritatis.
-					</p>
-					<img src="images/check.png" alt="check">
-					<p>Lorem, ipsum dolor sit amet consectetur
-						adipisicing elit. Deserunt, esse? 
-						Aperiam, molestiae sint illo fuga 
-						veritatis.
-					</p>
+					<a class="other_link" href="">
+						READ MORE
+					</a>
 				</div>
-			</div>
-			<div class="block">
-				<h3>
-					<img src="images/arrow.png" alt="arrow">
-					&nbsp; Testimonials
-				</h3>
-				<div class="line"></div>
-				<p>Lorem ipsum dolor sit amet 
-					consectetur adipisicing elit.
-					Ducimus quisquam veritatis 
-					voluptas quo in dicta atque 
-					animi accusantium dolore 
-					quae! Maiores deleniti, 
-					porro sit labore 
-					necessitatibus ullam vero 
-					molestiae velit. Nam efficitur 
-					quam risus, ullamcorper cursus 
-					nibh viverra eget.</p>
-					<div class="wrap">
-						<p>Rafi, Graphicsfuel.com</p>
+				<div class="other_benefits">
+					<div class="title">
+						<div class="title_icon">&rarr;</div>
+						<div class="title_name">OUR BENEFITS</div>
 					</div>
+					<div class="other_text_with_icon">
+						<span>&#9745;</span>
+						<p class="text">
+							Lorem Ipsum is simply dummy text of the
+							printing and typesetting industry.
+						</p>
+					</div>
+					<div class="other_text_with_icon">
+						<span>&#9745;</span>
+						<p class="text">
+							Lorem Ipsum is simply dummy text of the
+							printing and typesetting industry.
+						</p>
+					</div>
+					<div class="other_text_with_icon">
+						<span>&#9745;</span>
+						<p class="text">
+							Lorem Ipsum has been the industry's standard
+							dummy text ever since the 1500s,
+							when an unknown printer took
+							a galley of type and scrambled it
+							to make a type specimen book.
+						</p>
+					</div>
+				</div>
+				<div class="other_testimonials">
+					<div class="title">
+						<div class="title_icon">&rarr;</div>
+						<div class="title_name">TESTIMONIALS</div>
+					</div>
+					<p class="text">
+						Lorem Ipsum is simply dummy text of the
+						printing and typesetting industry.
+						Lorem Ipsum has been the industry's standard
+						dummy text ever since the 1500s,
+						when an unknown printer took
+						a galley of type and scrambled it
+						to make a type specimen book.
+					</p>
+					<p class="text italic">
+						Lorem Ipsum is simply dummy text
+					</p>
+				</div>
 			</div>
+			<div class="portfolio">
+				<div class="title">
+					<div class="title_icon">&rarr;</div>
+					<div class="title_name">OUR PORTFOLIO</div>
+				</div>
+				<div class="portfolio_case">
+					<img class="portfolio_case_image" src="public/portfolio_1.jpg" alt="no image :(">
+					<img class="portfolio_case_image" src="public/portfolio_2.jpg" alt="no image :(">
+					<img class="portfolio_case_image" src="public/portfolio_3.jpg" alt="no image :(">
+					<img class="portfolio_case_image" src="public/portfolio_4.jpg" alt="no image :(">
+				</div>
+			</div>
+			<div class="blog">
+				<div class="update_case">
+					<div class="title">
+						<div class="title_icon">&rarr;</div>
+						<div class="title_name small_font">BLOG UPDATES</div>
+					</div>
+					<p class="text">
+						Lorem Ipsum is simply dummy text of the
+						printing and typesetting industry.
+						Lorem Ipsum has been the industry's standard
+						dummy text ever since the 1500s,
+						when an unknown printer took
+						a galley of type and scrambled it
+						to make a type specimen book.
+					</p>
+				</div>
+				<div class="social">
+					<div class="title">
+						<div class="title_icon">&rarr;</div>
+						<div class="title_name small_font">CONNECT WITH US</div>
+					</div>
+					<div class="social_case">
+						<img class="social_link" src="public/twitter.png" alt="no image :(">
+						<img class="social_link" src="public/facebook.png" alt="no image :(">
+						<img class="social_link" src="public/flickr.png" alt="no image :(">
+						<img class="social_link" src="public/rss.png" alt="no image :(">
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
+	<footer class="footer">
+		<div class="footer_wrapper">
+			<div class="footer_info">
+				<div class="footer_navbar">
+					<a class="footer_link" href="">Home</a>
+					|
+					<a class="footer_link" href="">About Us</a>
+					|
+					<a class="footer_link" href="">Portfolio</a>
+					|
+					<a class="footer_link" href="">Services</a>
+					|
+					<a class="footer_link" href="">Blog</a>
+					|
+					<a class="footer_link" href="">Contact Us</a>
+				</div>
+				<div class="footer_copyright">
+					&copy; 2010 CreativeStudio. All Rights Reserved
+				</div>
+			</div>
+			<img src="public/logo-footer.png" class="logo" alt="no image :("/>
 		</div>
-		<hr>
-		<div class="name">
-			<h3>
-				<img src="images/arrow.png" alt="arrow">
-				&nbsp; Our Portfolio
-			</h3>
-			<div class="flags">
-				<div class="name">
-					<img src="images/portfolio_1.jpg" alt="portfolio_1">
-				</div>
-				<div class="name">
-					<img src="images/portfolio_2.jpg" alt="portfolio_2">
-				</div>
-				<div class="name">
-					<img src="images/portfolio_3.jpg" alt="portfolio_3">
-				</div>
-				<div class="name">
-					<img src="images/portfolio_4.jpg" alt="portfolio_4">
-				</div>
-			</div>
-		</div>
-		<hr>
-		<div class="upd">
-			<div class="name">
-				<h3>
-					<img src="images/arrow.png" alt="arrow">
-					&nbsp; Blog updates
-				</h3>
-				<p>Lorem ipsum dolor sit amet 
-					consectetur adipisicing elit. 
-					Fugit, distinctio? Ducimus, 
-					delectus nihil recusandae porro 
-					quis adipisci rem amet iste vero 
-					cupiditate quisquam aut est totam
-					perspiciatis, mollitia ullam optio!
-				</p>
-			</div>
-			<div class="name">
-				<h3>
-					<img src="images/arrow.png" alt="arrow">
-					&nbsp; Connect with us
-				</h3>
-				<div class="img">
-					<img src="images/twitter.png" alt="twitter">
-					<img src="images/facebook.png" alt="facebook">
-					<img src="images/flickr.png" alt="flickr">
-					<img src="images/rss.png" alt="rss">
-				</div>
-			</div>
-		</div>
-		<footer>
-			<div class="footer">
-				<p>Home | About Us | Portfolio
-					| Blog | Contacts Us <br><br>
-				Ⓒ 2010 CreativeStudio. All Rights Reserved</p>
-				<img src="images/logo-footer.png" alt="logo-footer">
-			</div>
-		</footer>
-	</body>
+	</footer>
+
+</body>
 </html>
